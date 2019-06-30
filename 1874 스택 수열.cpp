@@ -14,7 +14,7 @@ int main() {
 		cin >> input;
 		list.push_back(input);
 	}
-	//╫╨ец©║╢б 1╨нем n╠НаЖ ╪Ь╪╜╢К╥н Ёж╬Н╬ъ гя╢ы.
+	//Л┼╓М┐²Л≈░К┼■ 1К╤─М└╟ nЙ╧▄Л╖─ Л┬°Л└°К▄─К║° К└ёЛ√╢Л∙╪ М∙°К▀╓.
 	//if s.top() < list[0] -> NO
 	//else if(s.top() == list[0])
 	//else (s.top() > list[0])
