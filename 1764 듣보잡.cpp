@@ -16,7 +16,8 @@ int main() {
 	}
 	int sameCount = 0;
 	vector<string> sameList;
-	pair<set<string>::iterator, bool> pr; // insert��� pair��ȯ
+	pair<set<string>::iterator, bool> pr; // insert결과로 pair를 반환한다. 
+	//set을 쓸 때 이 집합 안에 요소가 있는지 없는지를 판단하는데 중요한 method임
 	while (M--) {
 		cin >> input;
 		pr = noListen.insert(input);
