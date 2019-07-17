@@ -4,6 +4,10 @@ using namespace std;
 
 multiset<long long int> S;
 // multiset is a data structure that allow redundant value in set.
+
+//there is another solution using min-max heap
+//I find this link https://www.youtube.com/watch?v=JEKkv2DGxDs
+//explaining min-max heap using example.
 int main() {
 	ios_base::sync_with_stdio(false);
 	int t;
